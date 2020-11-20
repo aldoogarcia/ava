@@ -6,4 +6,5 @@
 	}else{
 		echo 'Conexion exitosa..';
 	}
+//cambio de aldo m
 ?>
