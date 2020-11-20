@@ -1,0 +1,284 @@
+/*pagina en general*/
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+/*iconos de */
+.container-redes{
+  position: fixed;
+  bottom: 70px;
+  right: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  z-index: 100;
+  opacity: .9;
+}
+
+.container-redes a img{
+  width: 70px;
+ 
+}
+
+.btn {
+  justify-content: center;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 32px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  text-align: center;
+  right: 50px;
+  
+}
+
+#particles-js{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+
+#menu{
+    background: rgb(red);
+    position: fixed;
+    top: 3;
+    width:1000vh; 
+    height: 10vh;
+    z-index: 99; 
+      
+}
+
+#puntos{
+  color:rgb(18, 19, 19);
+  z-index: -1;
+}
+
+
+html{
+    scroll-behavior: smooth;
+   
+
+  
+}
+#sec1{ 
+  background-attachment: fixed;  
+ background-image: url("https://avaong.com/images/quienessomos.jpg");
+ background-size: cover;
+ object-fit: cover;
+ background-position: center center;
+ height: 100vh;
+ width: 100%;
+ color: white;
+ position: static; 
+ border: 1px solid;
+
+}
+
+
+
+#sec2{
+   position: relative;
+   height: 100%;
+ 
+}
+
+#sec3{
+  position: relative;
+  height: 100%;
+
+}
+
+
+
+body {
+  background-color:rgb(253, 253, 253);
+  color: rgb(5, 5, 5);
+  font-size: 18px;
+  font-family: serif;
+  font-weight: 300;
+}
+
+/*pie de pagina*/
+.pie{
+  position: relative;
+    background-color: rgb(2, 2, 2);
+    z-index: -19;
+}
+
+/*fondo del menu*/
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;/*estaba en cero*/
+    background-color: rgb(0, 0, 0); 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    transition: 0.5s; 
+  }
+  
+  /*letras del menu*/
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    display: block;
+    transition: 0.3s;
+  }
+  
+ /*color al seleccionar */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+ /*el cierre del menu*/
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+ /*trancicion del menu*/
+  #main {
+    position: fixed;
+    top: 4px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+    z-index: 100;
+    opacity: .9;
+    transition: margin-left .8s;
+    border-radius: 30px;
+    padding: 5px;
+  }
+/*logo de ava*/
+  #avalog{
+    left: 20px;
+    top:2px;
+    width: 75px;
+    display: flex;
+    justify-content:center;
+    margin-left: 5vh;
+  }
+  
+  
+  
+  @media screen and (max-height: 100px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 20px;}
+  }
+
+* {box-sizing: border-box;}
+
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+/*iconos*/
+.icon {
+  padding: 10px;
+  color:black;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+/*dentro de formulario*/
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: 10px;
+  border-radius: 20px;
+  border: 3px solid black ;
+}
+
+.input-field:focus {
+  border-radius: 20px;
+  border: 3px solid dodgerblue;
+}
+
+
+.btn:hover {
+  opacity: .7;
+}
+
+.am{
+  padding-top: 50pxS;
+  margin-top: 50%;
+  width: 60px; height: 60px;
+}
+#margin{
+  padding-top: 0mm;
+}
+.sele{
+  opacity: .9;
+}
+
+
+#menu {
+  transition:background-color 500ms, color 500ms;
+}
+
+#formulario{
+
+  opacity: .9;
+}
+
+#servicios{
+ margin: 10px;
+}
+#ser a img{
+  background-color: black;
+  opacity: ;
+  
+}
+#entrada{
+  margin: 20%;
+  opacity: 20;
+}
+
+#enviar{
+  width: 200px;
+  margin:auto;
+}
+
+#logowhite{
+  left: 20px;
+  top:2px;
+  width: 75px;
+  display: flex;
+  justify-content:center;
+  margin-left: 10vh;
+}
+
+#ser a img{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 5px 2px 5px #999;
+}
+.card-body{
+  border: 1px solid black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+   box-shadow: 5px 5px 5px #999;
+}
+.redes img{
+  width: 60px;
+  
+}
