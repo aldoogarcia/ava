@@ -8,4 +8,5 @@
 	}
 //cambio de aldo m
 //cambio de aldo
+//sabes si usar git pull o git pull master
 ?>
